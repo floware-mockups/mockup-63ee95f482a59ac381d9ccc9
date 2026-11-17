@@ -1,0 +1,222 @@
+{
+  "title": "Gestione pratiche dello sportello",
+  "description": "Prototipo navigabile per consultare le pratiche, monitorare stati e scadenze e registrare nuove richieste con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Riepilogo delle pratiche dello sportello e delle scadenze imminenti.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "24"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "11"
+        },
+        {
+          "label": "In attesa",
+          "value": "6"
+        },
+        {
+          "label": "In scadenza entro 7 giorni",
+          "value": "4"
+        },
+        {
+          "label": "Scadute",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Stato",
+        "Scadenza",
+        "Categoria",
+        "Richiedente",
+        "Ufficio"
+      ],
+      "rows": [
+        [
+          "In lavorazione",
+          "18/06/2026",
+          "Permesso di occupazione",
+          "Lumo Riva",
+          "Sportello Nubi"
+        ],
+        [
+          "In attesa",
+          "20/06/2026",
+          "Iscrizione al servizio",
+          "Vela Orti",
+          "Sportello Loto"
+        ],
+        [
+          "Da verificare",
+          "22/06/2026",
+          "Richiesta certificazione",
+          "Nubi Sera",
+          "Sportello Rame"
+        ],
+        [
+          "Scaduta",
+          "12/06/2026",
+          "Segnalazione manutenzione",
+          "Ramo Lume",
+          "Sportello Nubi"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Tabella consultabile e filtrabile per stato, categoria e data di scadenza.",
+      "metrics": [
+        {
+          "label": "Risultati mostrati",
+          "value": "24"
+        },
+        {
+          "label": "Da verificare",
+          "value": "5"
+        },
+        {
+          "label": "In attesa",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Categoria",
+        "Stato",
+        "Data apertura",
+        "Scadenza",
+        "Ufficio"
+      ],
+      "rows": [
+        [
+          "PR-26041",
+          "Lumo Riva",
+          "Permesso di occupazione",
+          "In lavorazione",
+          "03/06/2026",
+          "18/06/2026",
+          "Sportello Nubi"
+        ],
+        [
+          "PR-26042",
+          "Vela Orti",
+          "Iscrizione al servizio",
+          "In attesa",
+          "04/06/2026",
+          "20/06/2026",
+          "Sportello Loto"
+        ],
+        [
+          "PR-26043",
+          "Nubi Sera",
+          "Richiesta certificazione",
+          "Da verificare",
+          "05/06/2026",
+          "22/06/2026",
+          "Sportello Rame"
+        ],
+        [
+          "PR-26044",
+          "Ramo Lume",
+          "Segnalazione manutenzione",
+          "Scaduta",
+          "28/05/2026",
+          "12/06/2026",
+          "Sportello Nubi"
+        ],
+        [
+          "PR-26045",
+          "Lira Nube",
+          "Rilascio attestazione",
+          "Completata",
+          "26/05/2026",
+          "10/06/2026",
+          "Sportello Loto"
+        ],
+        [
+          "PR-26046",
+          "Vela Lumo",
+          "Occupazione temporanea",
+          "In lavorazione",
+          "08/06/2026",
+          "25/06/2026",
+          "Sportello Rame"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Inserimento essenziale di una richiesta allo sportello; i dati sono di fantasia.",
+      "metrics": [],
+      "columns": [
+        "Richiedente",
+        "Categoria",
+        "Stato",
+        "Data apertura",
+        "Scadenza",
+        "Ufficio"
+      ],
+      "rows": [],
+      "form": [
+        "Richiedente",
+        "Categoria",
+        "Stato",
+        "Data apertura",
+        "Scadenza",
+        "Ufficio"
+      ]
+    },
+    {
+      "id": "dettaglio-pratica",
+      "title": "Dettaglio pratica",
+      "description": "Scheda di consultazione con stato corrente, scadenza e assegnazione allo sportello.",
+      "metrics": [
+        {
+          "label": "Pratiche attive",
+          "value": "18"
+        },
+        {
+          "label": "Completate questo mese",
+          "value": "9"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Categoria",
+        "Stato",
+        "Scadenza",
+        "Ufficio"
+      ],
+      "rows": [
+        [
+          "PR-26041",
+          "Lumo Riva",
+          "Permesso di occupazione",
+          "In lavorazione",
+          "18/06/2026",
+          "Sportello Nubi"
+        ],
+        [
+          "PR-26042",
+          "Vela Orti",
+          "Iscrizione al servizio",
+          "In attesa",
+          "20/06/2026",
+          "Sportello Loto"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
